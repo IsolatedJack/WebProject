@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'protest_strikeregular';
+    src: url('proteststrike-regular-webfont.woff2') format('woff2'),
+         url('proteststrike-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sixtyfourregular';
+    src: url('sixtyfour-regular-variablefont_bledscan-webfont.woff2') format('woff2'),
+         url('sixtyfour-regular-variablefont_bledscan-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #759ab4; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    font-family: 'sixtyfourregular', sans-serif;
+}
+.login-container {
+    background-color: #d2b1b1;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(207, 149, 149, 0.1);
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    font-family: 'sixtyfourregular',  sans-serif;
+    
+}
+.logo {
+    max-width:fit-content; 
+    margin-bottom: 30px;
+    animation: rotate 2s linear infinite;
+    box-shadow: #7a2424;
+    
+}
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Rounded corners */
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    border-color: #1f3645; 
+    box-shadow: 0 0 5px rgba(17, 35, 47, 0.5); /* Add shadow on focus */
+    outline: none; 
+    font-family: 'sixtyfourregular',  sans-serif;
+    ;
+}
+.login-container button 
+{
+    width: 100%;
+    padding: 10px;
+    background-color: #82b5d8;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'sixtyfourregular',  sans-serif;
+    box-shadow: #000000;
+    text-shadow: #ccc;
+    
+}
+.login-container button:hover {
+    background-color: #508db9;
+}
